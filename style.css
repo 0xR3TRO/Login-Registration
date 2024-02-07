@@ -1,10 +1,13 @@
-*{
+/* Reset default margin, padding, and box-sizing for all elements */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-  }
-  body{
+}
+
+/* Styling for the body */
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,8 +15,10 @@
     background: #333;
     background-size: cover;
     background-position: center;
-  }
-  .wrapper{
+}
+
+/* Styling for the main wrapper */
+.wrapper {
     width: 420px;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .2);
@@ -21,19 +26,24 @@
     color: #fff;
     border-radius: 12px;
     padding: 30px 40px;
-  }
-  .wrapper h1{
+}
+
+/* Styling for the main heading */
+.wrapper h1 {
     font-size: 36px;
     text-align: center;
-  }
-  .wrapper .input-box{
+}
+
+/* Styling for the input box container */
+.wrapper .input-box {
     position: relative;
     width: 100%;
     height: 50px;
-    
     margin: 30px 0;
-  }
-  .input-box input{
+}
+
+/* Styling for the input field */
+.input-box input {
     width: 100%;
     height: 100%;
     background: transparent;
@@ -44,38 +54,49 @@
     font-size: 16px;
     color: #fff;
     padding: 20px 45px 20px 20px;
-  }
-  .input-box input::placeholder{
+}
+
+/* Styling for the input placeholder */
+.input-box input::placeholder {
     color: #fff;
-  }
-  .input-box i{
+}
+
+/* Styling for the icon inside the input box */
+.input-box i {
     position: absolute;
     right: 20px;
     top: 30%;
     transform: translate(-50%);
     font-size: 20px;
-  
-  }
-  .wrapper .remember-forgot{
+}
+
+/* Styling for the "Remember Me" and "Forgot Password" section */
+.wrapper .remember-forgot {
     display: flex;
     justify-content: space-between;
     font-size: 14.5px;
     margin: -15px 0 15px;
-  }
-  .remember-forgot label input{
+}
+
+/* Styling for the checkbox in the "Remember Me" section */
+.remember-forgot label input {
     accent-color: #fff;
     margin-right: 3px;
-  
-  }
-  .remember-forgot a{
+}
+
+/* Styling for the links in the "Remember Me" and "Forgot Password" section */
+.remember-forgot a {
     color: #fff;
     text-decoration: none;
-  
-  }
-  .remember-forgot a:hover{
+}
+
+/* Hover effect for the links in the "Remember Me" and "Forgot Password" section */
+.remember-forgot a:hover {
     text-decoration: underline;
-  }
-  .wrapper .btn{
+}
+
+/* Styling for the login button */
+.wrapper .btn {
     width: 100%;
     height: 45px;
     background: #fff;
@@ -87,18 +108,23 @@
     font-size: 16px;
     color: #333;
     font-weight: 600;
-  }
-  .wrapper .register-link{
+}
+
+/* Styling for the "Register" link */
+.wrapper .register-link {
     font-size: 14.5px;
     text-align: center;
     margin: 20px 0 15px;
-  
-  }
-  .register-link p a{
+}
+
+/* Styling for the "Register" link within a paragraph */
+.register-link p a {
     color: #fff;
     text-decoration: none;
     font-weight: 600;
-  }
-  .register-link p a:hover{
+}
+
+/* Hover effect for the "Register" link */
+.register-link p a:hover {
     text-decoration: underline;
-  }
+}
