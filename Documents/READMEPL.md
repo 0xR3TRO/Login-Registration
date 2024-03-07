@@ -115,4 +115,4 @@ Projekt ma na celu stworzenie interaktywnej strony formularza logowania, umożli
 - **Koszty utrzymania:** Serwery, usługi zewnętrzne, ewentualne opłaty za wsparcie techniczne.
 
 ---
-[English](README.md)
+[English](/README.md)
